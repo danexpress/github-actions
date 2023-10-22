@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       - name: NPM Install
         run: npm ci
-        working-directory: ./nike
+        working-directory: /nike
       - name: Build app
         run: npm run build
         working-directory: ./nike
