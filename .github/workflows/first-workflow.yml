@@ -17,7 +17,7 @@ jobs:
         run: npm run build
         working-directory: ./nike
       - name: Deploy
-        uses: Danexpress/github-pages-deploy-actions@4.1.5
+        uses: JamesIves/github-pages-deploy-actions@4.1.5
         with:
           branch: nike
           folder: nike/build
