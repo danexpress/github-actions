@@ -1,4 +1,4 @@
-name: Nike
+name: Deploy Nike
 on:
   push:
     branches:
