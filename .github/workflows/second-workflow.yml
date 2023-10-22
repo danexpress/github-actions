@@ -1,0 +1,10 @@
+name: Second Workflow
+on: push
+
+jobs:
+  run-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Python script
+        run: print("this is python")
+        shell: python
