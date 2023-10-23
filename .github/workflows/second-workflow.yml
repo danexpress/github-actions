@@ -1,12 +1,12 @@
-name: Second Workflow
-on: push
+# name: Second Workflow
+# on: push
 
-jobs:
-  run-commands:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: python sample.py
-      - name: Run Python script
-        run: print("this is python")
-        shell: python
+# jobs:
+#   run-commands:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - run: python sample.py
+#       - name: Run Python script
+#         run: print("this is python")
+#         shell: python
